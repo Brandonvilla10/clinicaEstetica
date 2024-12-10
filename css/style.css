@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    outline-style: none;
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-color: #9298A6;
+    height: 15%;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    text-align: right;
+    align-items: center;
+    
+}
+
+.logo{
+    position: relative;
+    left: 3%;
+}
+
+.opciones{
+    list-style: none;
+    display: flex;
+    font-size: large;
+    font-weight: 100;
+    flex-direction: row;
+}
+
+.opciones >*{
+    margin-right: 64px;
+}
+
+
+header {
+    background-color: #9298A6;
+    height: 15%;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    text-align: right;
+    align-items: center;
+    position: fixed; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+.containerGeneral {    margin-top: 8%; }
+
+
+
+.container1 {
+    margin-top: 4%;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.linea{
+    width: 10px;
+    height: 161px;
+    margin-right: -207px;
+    background-color: #9298A6;
+}
+
+i{
+    font-size: xxx-large;
+    font-family: auto;
+}
+.mensaje{font-size: x-large;}
+.nombre{font-weight: 100;
+    display: flex;
+    font-size: 30px;
+    gap: 33px;
+    font-style: normal;
+    flex-direction: column; }
+
+/* aqui va la segunda section del codgio css donde ira el sobre nosotros */
+
+.container-2{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contentLeftSide{margin-left: 13%;display: flex;flex-direction: column;gap: 30px;}
+.textoSobre {
+    font-weight: 300;
+    width: 49%;
+    font-size: larger;
+    height: 30vh;
+}
+.imgRightSide{margin-right: 164px;position: absolute; right: -13px; top: 460px;}

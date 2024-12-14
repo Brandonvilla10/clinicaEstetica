@@ -10,6 +10,52 @@ a{
     text-decoration: none;
     color: black;
 }
+
+/* Dispositivos pequeños (teléfonos) */
+@media (max-width: 480px) {
+    header {
+        height: 10%;
+        flex-direction: column; /* Cambiar el layout a columna */
+    }
+    .opciones {
+        flex-direction: column;
+        align-items: center;
+    }
+    .opciones > * {
+        margin-right: 0;
+        margin-bottom: 10px; /* Separación entre elementos */
+    }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .container-2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .imgRightSide {
+        position: static; /* Para evitar problemas de layout */
+        margin: 20px auto;
+    }
+}
+
+/* Escritorios pequeños */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container-4 {
+        grid-template:
+        "tratamientos1 tratamientos2" 250px
+        "tratamientos3 tratamientos4" 250px / 
+        100%; /* Expandir las columnas */
+    }
+    .container-4 > * {
+        margin: 10px 0; /* Espacio entre tarjetas */
+    }
+}
+
+
+
+
 header{
     background-color: #9298A6;
     height: 15%;
@@ -20,6 +66,7 @@ header{
     align-items: center;
     
 }
+
 
 .logo{
     position: relative;
@@ -50,10 +97,18 @@ header {
     position: fixed; 
     top: 0; 
     z-index: 1000; 
+    transition: height 0.3s ease, padding 0.3s ease;
 }
 
-.containerGeneral {    margin-top: 8%; }
+.header.sticky {
+    height: 60px;
+    padding: 10px;
+  }
 
+.containerGeneral {
+     margin-top: 8%;
+
+    }
 
 
 .container1 {
@@ -105,3 +160,201 @@ i{
     height: 30vh;
 }
 .imgRightSide{margin-right: 164px;position: absolute; right: -13px; top: 460px;}
+
+
+.container-3{
+    margin-top: 8%;
+    display: grid;
+    grid-template: "map textomap"  200px;
+    justify-items: center;
+    justify-content: space-evenly;
+    margin-left: 11%;
+    margin-right: 18%;
+}
+
+.map{
+    grid-area: map;
+}
+iframe{border-radius: 12%;}
+
+.textoMap{
+    grid-area: textoMap;
+    display: flex;
+    position: relative;
+    top: -150px;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.titulo{font-size: xx-large; padding-bottom: 40px;}
+.parrafo{color: #9298A6; font-size: x-large}
+
+
+.container-4{
+    display: grid;
+    margin-top: 10%;
+    gap: 40px;
+    justify-content: center;
+    grid-template:
+    "tratamientos1 tratamientos2" 250px
+    "tratamientos3 tratamientos4" 250px
+    "tratamientos5 tratamientos6" 250px/
+    44% 44% 0% ;
+}
+
+.container-4 >*{
+    border:#9298A6 solid;
+    border-radius: 20px;
+}
+.tituloTratamientos{
+    display: flex;
+    justify-content: center;
+
+}
+
+.tratamientos1{
+  
+    grid-area: tratamientos1;
+    display: flex;
+    flex-direction: row;
+}
+.tratamientos2{
+    
+    grid-area: tratamientos2;
+    display: flex;
+    flex-direction: row;
+}
+.tratamientos3{
+    
+    grid-area: tratamientos3;
+    display: flex;
+    flex-direction: row;
+}
+.tratamientos4{
+   
+    grid-area: tratamientos4;
+    display: flex;
+    flex-direction: row;
+}
+.tratamientos5{
+   
+    grid-area: tratamientos5;
+    display: flex;
+    flex-direction: row;
+}
+.tratamientos6{
+    
+    grid-area: tratamientos6;
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    color: white;
+}
+
+.imgTratamientos{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.izquierda{
+    text-align: center;
+    font-style: oblique;
+    font-size: x-large;
+}
+
+.derecha{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.reservar{
+    color: white;
+    border-radius: 40px;
+    height: 50px;
+    width: 36%;
+    position: relative;
+    top: 0vh;
+    right: -27vh;
+    font-weight: 700;
+    background-color: rgb(2, 23, 255);
+}
+.reservar:hover{
+    transform: scale(0.9);transition: 2s;
+}
+
+
+
+/* container 5 que es la parte de la asesoria  */
+.container-5{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    background-color: #9298A6;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+}   
+.tituloAsesoria{
+    color: white;
+    font-family: sans-serif;
+    font-size:xxx-large;
+}
+
+
+/* apartado carrusel de las opiniones de la gente  */
+
+.comments-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    justify-content: center;
+    margin-top: 85px;
+  }
+
+  .comment-card {
+    border:#9298A6 solid;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 102%;
+    margin: 0 20px;
+  }
+
+  .comment-card h3 {
+    margin-top: 0;
+  }
+
+
+  /* seccion del footer */
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20vh;
+    background-color: #9298A6;
+    height: 50vh;
+    align-items: center;
+    justify-items: center;
+}
+
+.iconos{
+    display: grid;
+    gap: 20px;
+}
+
+.correo{
+    color: white;
+    grid-column-end: auto;
+    display: grid;
+    height: 30vh;
+    width: 20%;
+    font-size: larger;
+    font-weight: 500;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+

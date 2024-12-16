@@ -31,6 +31,42 @@ a{
         visibility: hidden;
     }
 
+    .bi{
+
+        color: black;
+    }
+    .mostrarMenu{
+        position: fixed;
+        right: 12px;
+        top: 16px;;
+    }
+
+    .menuLateral{
+        background-color: #b8bec0;
+        display: flex;
+        height: 194px;
+        position: fixed;
+        right: -195px;
+        top: 56px;
+        z-index: 11;
+        width: 42%;
+        border-radius: 24px;
+        flex-direction: column; 
+        transition: right 0.3s ease;
+    }
+
+    .visible{
+        position: fixed;
+        right: 0;
+        transition: right 0.3s ease;
+    }
+
+
+    .opciones2{
+        text-decoration: none;
+        list-style: none;
+    }
+
     .containerGeneral {
         display: none;
     }
@@ -235,6 +271,10 @@ a{
         transition: height 0.3s ease, padding 0.3s ease;
     }
 
+    .menuLateral{
+        visibility: hidden;
+    }
+
     .logo {
         position: relative;
         left: 3%;
@@ -251,6 +291,11 @@ a{
 
     .opciones > * {
         margin-right: 64px;
+    }
+
+    .bi{
+        position: absolute;
+        visibility: hidden;
     }
 
     .containerGeneral {
@@ -549,7 +594,7 @@ a{
     display: block;
     position: fixed; 
     top: 50%; 
-    left: 0; 
+    left: 10px; 
     transform: translateY(-50%); 
     width: 60px; 
     background-color: #333; 

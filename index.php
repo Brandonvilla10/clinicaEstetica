@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medicina Estetica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="css/boostrap.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -22,10 +23,28 @@
             <ul><a href="#container-2"> Sobre Nosotros</a></ul>
             <ul><a href="#container-4"> Tratamientos</a></ul>
             <ul><a href="#correo"> Contactanos</a></ul>
+            <ul><a id="galeria" href="galeria.html">Galeria</a></ul>
         </li>
+
+        
 </nav>
+
     </header>
+
+
+
+    <a href="" id="mostrarMenu" class="mostrarMenu"> <i class="bi bi-list" style="font-size: 2rem;"></i></a>
     
+    <div id="menuLateral" class="menuLateral">
+
+         <li class="opciones2">
+            <ul><a href="#"> Inicio</a></ul>
+            <ul><a href="#container-2"> Sobre Nosotros</a></ul>
+            <ul><a href="#container-4"> Tratamientos</a></ul>
+            <ul><a href="#correo"> Contactanos</a></ul>
+            <ul><a id="galeria" href="galeria.html">Galeria</a></ul>
+        </li>
+    </div>
     
     
         
@@ -231,5 +250,7 @@
 
 </div>  
 
+
+<script src="scripts.js"></script>
 </body>
 </html>

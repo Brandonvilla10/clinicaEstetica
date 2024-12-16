@@ -35,14 +35,15 @@
             <div class="nombre">
                     <i>Dr. Cristhian Ninco </i>
                     <p class="mensaje">Medicina Estética e Implante Capilar</p>    
-                
+            
+                    <div id="container-2"></div>
             </div>
                 <div class="PrimeraImagenCristhianDiv"> 
                     <img src="assets/img/PrimeraImagenCristhian.png" class="PrimeraImagenCristhian" alt="">
                 </div>
         </section>
 
-        <div id="container-2"></div>
+        
 
        <section id="container-2" class="container-2">
             <div class="contentLeftSide">
@@ -51,7 +52,7 @@
             </div>
 
             <div class="imgRightSide">
-                <img src="assets/img/sin fondo negro.png" width="500px" height=500px" alt="">
+                <img src="assets/img/sin fondo negro.png" class="sinFondoNegro" width="500px" height=500px" alt="">
             </div>
 
        </section>
@@ -68,9 +69,10 @@
                 <p class="parrafo"> Plazoleta la Nueva villa de aburra</p>
                 <p class="parrafo">Tercer piso , consultorio 307a</p>
             </div>
+            <div id="container-4"></div>
        </section>
-
-       <div id="container-4"></div>
+       
+       
        <section " class="container-4">
 
         
@@ -111,7 +113,7 @@
                 <b>Depilación láser Diodo</b>
             </div>
             <div class="derecha">
-                <p>La depilación láser de diodo es una manera segura, rápida y eficaz de acabar para siempre con las molestias de la depilación tradicional. <br><br><br></p>
+                <p>La depilación láser de diodo es una manera segura, rápida y eficaz de acabar para siempre con las molestias de la depilación tradicional. <br><br><br><br></p>
                 <div class="boton">
                     <button type="button" id="reservar" class="reservar">
                         <a href="https://wa.me/573124367882?text=Estoy%20interesado%20en%20este%20tratamiento%20Depilacion%20Laser%20Diodo" target="_blank">
@@ -125,7 +127,7 @@
                 <b>Bioestimuladores</b>
             </div>
             <div class="derecha">
-                <p>Los bioestimuladores son sustancias inyectables que se aplican en la piel para estimular la producción de colágeno y elastina. <br><br><br></p>
+                <p>Los bioestimuladores son sustancias inyectables que se aplican en la piel para estimular la producción de colágeno y elastina. <br><br><br><br><br></p>
                 <div class="boton">
                     <button type="button" id="reservar" class="reservar">
                         <a href="https://wa.me/573124367882?text=Estoy%20interesado%20en%20este%20tratamiento%20Bioestimuladores" target="_blank">
@@ -139,7 +141,7 @@
                 <b>Acido Hialurónico</b>
             </div>
             <div class="derecha">
-                <p>El ácido hialurónico es una sustancia en gel que se aplica mediante micro-inyecciones directamente en la piel. Estas inyecciones ayudan a reponer el ácido hialurónico natural perdido. <br><br></p>
+                <p>El ácido hialurónico es una sustancia en gel que se aplica mediante micro-inyecciones directamente en la piel. Estas inyecciones ayudan a reponer el ácido hialurónico natural perdido. <br><br><br></p>
                 <div class="boton">
                     <button type="button" id="reservar" class="reservar">
                         <a href="https://wa.me/573124367882?text=Estoy%20interesado%20en%20este%20tratamiento%20Acido%20Hialuronico" target="_blank"> Reservar
@@ -169,7 +171,7 @@
         <p class="subtituloAsesoria">"Con el Dr. Cristhian, tu guía en nutrición, transforma tu vida con salud y bienestar."</p>
        </section>
        
-       <section class="container-xxl">
+       <section class="container-6">
 
         <div class="comments-container">
             <div class="comment-card">
@@ -197,7 +199,9 @@
         </div>
 
         <div class="iconos">
-            <img src="assets/img/imgRedesSociales/facebook (3).png" width="50px" height="50px" alt=""><img src="assets/img/imgRedesSociales/instagram.png" width="50px" height="50px"><img src="assets/img/imgRedesSociales/tik-tok (2).png" width="50px" height="50px">
+            <a href="https://www.facebook.com/cristhian.ninco.7"> <img src="assets/img/imgRedesSociales/facebook (3).png" width="50px" height="50px" alt=""></a>
+            <a href="https://www.instagram.com/dr.ninco/" target="_blank"> <img src="assets/img/imgRedesSociales/instagram.png" width="50px" height="50px"></a>
+            <a href="https://www.tiktok.com/@dr.cristhianninco"> <img src="assets/img/imgRedesSociales/tik-tok (2).png" width="50px" height="50px"></a>
             <hr>
             © 2024 Cristhian. Todos los derechos reservados.
             
@@ -213,6 +217,19 @@
         </div>
     </footer>
     
+    <div class="side-bar">
+    <a href="https://www.facebook.com/cristhian.ninco.7" target="_blank">
+        <img src="assets/img/imgRedesSociales/facebook (3).png" width="50px" height="50px" alt="Facebook">
+    </a>
+    <a href="https://www.instagram.com/dr.ninco/" target="_blank">
+        <img src="assets/img/imgRedesSociales/instagram.png" width="50px" height="50px" alt="Instagram">
+    </a>
+    <a href="https://www.tiktok.com/@dr.cristhianninco" target="_blank">
+        <img src="assets/img/imgRedesSociales/tik-tok (2).png" width="50px" height="50px" alt="TikTok">
+    </a>
+</div>
+
 </div>  
+
 </body>
 </html>

@@ -2,6 +2,7 @@
     padding: 0;
     border: 0;
     margin: 0;
+    margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -11,49 +12,235 @@ a{
     color: black;
 }
 
-
 @media (min-width: 320px) {
+    .side-bar{display: none;}
     header {
         display: flex;
-        height: 20vh;
-        width: 93vh;
+        height: 13vh;
+        width: 100%;
         background-color: #9298A6;
+        align-items: center;
     }
-    .logo{
-        position: absolute;
-        left: 50%;
-    }
-    .opciones{visibility: hidden;}
 
-    .containerGeneral{
+    .logo {
+        position: relative;
+        left: 24%;
+    }
+    
+    .opciones {
+        visibility: hidden;
+    }
+
+    .containerGeneral {
         display: none;
     }
-   
-    .container1{
+
+    .container1 {
         display: flex;
-        width: 93vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .PrimeraImagenCristhian {
+        width: 100%;
+        height: 400px;
+    }
+
+    .mensaje {
+        font-size: large;
+    }
+
+    .nombre {
+        margin-top: 5%;
+        font-weight: 100;
+        display: flex;
+        font-size: 30px;
+        font-style: normal;
         flex-direction: column;
     }
-}
-@media (min-width:992px) {
-    header{
+
+    .container-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10%;
+    }
+
+    .sinFondoNegro {
+        width: 100%;
+        height: 300px;
+    }
+
+    .container-3 {
+        margin: 10%;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .map {
+        margin-bottom: 5%;
+    }
+
+    iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+    .container-4 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .tratamientos1, .tratamientos2, .tratamientos3, .tratamientos4, .tratamientos5, .tratamientos6 {
+        display: flex;
+        margin: 20px;
+        
+    }
+
+    .imgTratamientos {
+        width: 15vh;
+        height: 137px;
+    }
+
+    .container-4 > * {
+        border: #9298A6 solid;
+        border-radius: 20px;
+        box-shadow: -3px 8px 22px 0px rgba(0, 0, 0, 0.43);
+    }
+
+    .imgTratamientos {
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .izquierda {
+        text-align: center;
+        font-style: oblique;
+        font-size: large;
+    }
+
+    .derecha {
+        margin-left: 3px;
+        margin-right: 20px;
+    }
+
+    a {
+        color: white;
+    }
+
+    .reservar {
+        color: white;
+        border-radius: 40px;
+        height: 35px;
+        width: 50%;
+        font-weight: 700;
+        background-color: rgb(2, 23, 255);
+        margin-bottom: 10px;
+    }
+
+    .container-5 {
+        display: flex;
+        flex-direction: column;
+        height: 40vh;
+        width: 100%;
         background-color: #9298A6;
-        height: 15%;
+        margin-top: 10%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tituloAsesoria {
+        color: white;
+        font-family: sans-serif;
+        font-size: xxx-large;
+    }
+
+    .container-6{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+    .comments-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 3%;
+        justify-content: center;
+        margin-top: 59px;
+        
+    }
+
+    .comment-card {
+        width: 100%;
+        height: 271px;
+        border: solid 3px #9298A6;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .comment-card p {
+        color: #9298A6;
+        font-size: medium;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20vh;
+        background-color: #9298A6;
+        height: 70vh;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .iconos{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin: 10px;
+        margin-left: 15px;
+        margin-bottom: 43px;
+    }
+    
+    .correo{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        font-size: larger;
+        font-weight: 500;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    header {
+        background-color: #9298A6;
+        height: 114px;
         width: 100%;
         display: flex; 
         justify-content: space-between;
         text-align: right;
         align-items: center;
-        
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        transition: height 0.3s ease, padding 0.3s ease;
     }
-    
-    
-    .logo{
+
+    .logo {
         position: relative;
         left: 3%;
     }
-    
-    .opciones{
+
+    .opciones {
         visibility: visible;
         list-style: none;
         display: flex;
@@ -61,215 +248,227 @@ a{
         font-weight: 100;
         flex-direction: row;
     }
-    
-    .opciones >*{
+
+    .opciones > * {
         margin-right: 64px;
     }
-    
-    
-    header {
-        background-color: #9298A6;
-        height: 15%;
-        width: 100%;
-        display: flex; 
-        justify-content: space-between;
-        text-align: right;
-        align-items: center;
-        position: fixed; 
-        top: 0; 
-        z-index: 1000; 
-        transition: height 0.3s ease, padding 0.3s ease;
-    }
-    
-    .header.sticky {
-        height: 60px;
-        padding: 10px;
-      }
-    
+
     .containerGeneral {
-         margin-top: 8%;
-    
-        }
-    
-    
+        margin-top: 8%;
+    }
+
     .container1 {
-        margin-top: 4%;
+        margin-top: 8%;
         height: 70%;
         width: 100%;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
-        
     }
-    .linea{
+
+    .linea {
         width: 10px;
         height: 161px;
         margin-right: -207px;
         background-color: #9298A6;
     }
-    
-    i{
+
+    i {
         font-size: xxx-large;
         font-family: auto;
     }
-    .mensaje{font-size: x-large;}
-    .nombre{font-weight: 100;
+
+    .mensaje {
+        font-size: x-large;
+    }
+
+    .nombre {
+        font-weight: 100;
         display: flex;
         font-size: 30px;
         gap: 33px;
         font-style: normal;
-        flex-direction: column; }
-    
-    /* aqui va la segunda section del codgio css donde ira el sobre nosotros */
-    
-    .container-2{
+        flex-direction: column;
+    }
+
+    .container-2 {
         margin-top: 100px;
+        margin-bottom: 10px;
         display: flex;
         flex-direction: row;
         height: 30%;
-        width: 100%;
+        width: 100vh;
         align-items: center;
         justify-content: space-between;
     }
-    
-    .contentLeftSide{margin-left: 13%;display: flex;flex-direction: column;gap: 30px;}
+
+    .contentLeftSide {
+        text-align: left;
+        margin-left: 8%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
     .textoSobre {
         font-weight: 300;
-        width: 49%;
+        width:  80%;
         font-size: larger;
         height: 30vh;
     }
-    .imgRightSide{margin-right: 164px;position: absolute; right: -13px; top: 460px;}
-    
-    
-    .container-3{
-        margin-top: 8%;
+
+    .sinFondoNegro{
+        width: 100%;
+        height:  400px;
+    }
+
+    .imgRightSide {
+        margin-right: 164px;
+        position: absolute;
+        right: -12px;
+        top: 580px;
+    }
+
+    .container-3 {
+        margin-top: 2%;
         display: grid;
-        grid-template: "map textomap"  200px;
+        grid-template: "map textomap" 200px;
         justify-items: center;
         justify-content: space-evenly;
         margin-left: 11%;
         margin-right: 18%;
+        margin-bottom: 5%;
     }
-    
-    .map{
+
+    .map {
         grid-area: map;
+        width: 70vh;
     }
-    iframe{border-radius: 12%;}
-    
-    .textoMap{
+
+    iframe {
+        border-radius: 12%;
+        height: 40vh;
+    }
+
+    .textoMap {
         grid-area: textoMap;
         display: flex;
         position: relative;
         top: -150px;
         flex-direction: column;
         text-align: center;
-        
     }
-    
-    .titulo{font-size: xx-large; padding-bottom: 40px;}
-    .parrafo{color: #9298A6; font-size: x-large}
-    
-    
-    .container-4{
+
+    .titulo {
+        font-size: xx-large;
+        padding-bottom: 40px;
+    }
+
+    .parrafo {
+        color: #9298A6;
+        font-size: xx-large;
+    }
+
+    .container-4 {
         display: grid;
-        margin-top: 10%;
+        margin-top: 5%;
         gap: 40px;
+        font-size: large;
         justify-content: center;
-        grid-template:
-        "tratamientos1 tratamientos2" 250px
-        "tratamientos3 tratamientos4" 250px
-        "tratamientos5 tratamientos6" 250px/
-        44% 44% 0% ;
+        grid-template: 
+            "tratamientos1 tratamientos2" 350px
+            "tratamientos3 tratamientos4" 350px
+            "tratamientos5 tratamientos6" 350px / 44% 44% 0%;
     }
-    
-    .container-4 >*{
-        border:#9298A6 solid;
+
+    .container-4 > * {
+        border: #9298A6 solid;
         border-radius: 20px;
     }
-    .tituloTratamientos{
+
+    .tituloTratamientos {
         display: flex;
         justify-content: center;
-    
     }
-    
-    .tratamientos1{
-      
+
+    .tratamientos1 {
         grid-area: tratamientos1;
         display: flex;
         flex-direction: row;
     }
-    .tratamientos2{
-        
+
+    .tratamientos2 {
         grid-area: tratamientos2;
         display: flex;
         flex-direction: row;
     }
-    .tratamientos3{
-        
+
+    .tratamientos3 {
         grid-area: tratamientos3;
         display: flex;
         flex-direction: row;
     }
-    .tratamientos4{
-       
+
+    .tratamientos4 {
         grid-area: tratamientos4;
         display: flex;
         flex-direction: row;
     }
-    .tratamientos5{
-       
+
+    .tratamientos5 {
         grid-area: tratamientos5;
         display: flex;
         flex-direction: row;
     }
-    .tratamientos6{
-        
+
+    .tratamientos6 {
         grid-area: tratamientos6;
         display: flex;
         flex-direction: row;
     }
-    
-    a{
+
+    a {
         color: white;
     }
-    
-    .imgTratamientos{
+
+    .imgTratamientos {
+        width: 300px;
+        height: 250px;
         border-top-left-radius: 20px;
         border-bottom-right-radius: 20px;
     }
-    
-    .izquierda{
+
+    .izquierda {
         text-align: center;
         font-style: oblique;
         font-size: x-large;
     }
-    
-    .derecha{
+
+    .derecha {
         margin-left: 20px;
         margin-right: 20px;
     }
-    
-    .reservar{
+
+    .reservar {
         color: white;
         border-radius: 40px;
         height: 50px;
         width: 36%;
         position: relative;
-        top: 0vh;
-        right: -27vh;
+        top: 2vh;
+        right: -26vh;
         font-weight: 700;
         background-color: rgb(2, 23, 255);
     }
-    .reservar:hover{
-        transform: scale(0.9);transition: 2s;
+
+    .reservar:hover {
+        transform: scale(0.9);
+        transition: 2s;
     }
-    
-    
-    
-    /* container 5 que es la parte de la asesoria  */
-    .container-5{
+
+    /* container 5 que es la parte de la asesoria */
+    .container-5 {
         display: flex;
         flex-direction: column;
         height: 40vh;
@@ -277,39 +476,44 @@ a{
         margin-top: 10%;
         justify-content: center;
         align-items: center;
-    }   
-    .tituloAsesoria{
+    }
+
+    .tituloAsesoria {
         color: white;
         font-family: sans-serif;
-        font-size:xxx-large;
+        font-size: xxx-large;
     }
-    
-    
-    /* apartado carrusel de las opiniones de la gente  */
-    
+
+    /* apartado carrusel de las opiniones de la gente */
     .comments-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 40px;
         justify-content: center;
         margin-top: 85px;
-      }
-    
-      .comment-card {
-        border:#9298A6 solid;
-        padding: 20px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        width: 102%;
-        margin: 0 20px;
-      }
-    
-      .comment-card h3 {
-        margin-top: 0;
-      }
-    
-    
-      /* seccion del footer */
-    
+    }
+
+    .comment-card {
+        width: 405px;
+        height: 300px;
+        font-size:  medium;
+        border: solid 3px #9298A6;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .comment-card img {
+        border-radius: 50%;
+        margin-top: 10%;
+        width: 100px;
+        height: 100px;
+    }
+
+    .comment-card p {
+        color: #9298A6;
+        font-size: large;
+    }
+
     footer{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -338,4 +542,43 @@ a{
         align-items: center;
         text-align: center;
     }
+    
+
+    /* Position the sidebar */
+.side-bar {
+    display: block;
+    position: fixed; 
+    top: 50%; 
+    left: 0; 
+    transform: translateY(-50%); 
+    width: 60px; 
+    background-color: #333; /* Background color */
+    border-radius: 10px; /* Optional, rounded corners */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Shadow for effect */
+    z-index: 1000; /* Keep it on top */
+    padding: 6px 0;
 }
+
+/* Style the links */
+.side-bar a {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px; /* Space between icons */
+}
+
+.side-bar img {
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for icons */
+.side-bar img:hover {
+    transform: scale(1.1); /* Slightly enlarge the icons on hover */
+}
+
+}
+
+
+ /* seccion del footer */
+    

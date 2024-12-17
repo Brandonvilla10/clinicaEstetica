@@ -28,3 +28,7 @@ document.getElementById("mostrarMenu").addEventListener("click", function(e) {
     menu.classList.toggle("visible");
   });
   
+
+document.getElementById('header').addEventListener("scroll",()=>{
+  
+})

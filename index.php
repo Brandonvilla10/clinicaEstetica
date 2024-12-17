@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medicina Estetica</title>
+    <link rel="icon" href="assets/img/solo logo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="css/boostrap.css">
     <link rel="stylesheet" href="css/style.css">
@@ -15,7 +16,7 @@
         
 
         <div class="logo">
-            <img src="assets/img/Mesa de trabajo 1 copia (3).png" width="210px" height="100px" alt="" >
+            <img class="logoimg" src="assets/img/Mesa de trabajo 1 copia (3).png" width="210px" height="100px" alt="" >
         </div>  
 <nav>
         <li class="opciones">
@@ -23,7 +24,7 @@
             <ul><a href="#container-2"> Sobre Nosotros</a></ul>
             <ul><a href="#container-4"> Tratamientos</a></ul>
             <ul><a href="#correo"> Contactanos</a></ul>
-            <ul><a id="galeria" href="galeria.html">Galeria</a></ul>
+            <ul><a id="galeria" href="galeria.php">Galeria</a></ul>
         </li>
 
         
@@ -42,7 +43,7 @@
             <ul><a href="#container-2"> Sobre Nosotros</a></ul>
             <ul><a href="#container-4"> Tratamientos</a></ul>
             <ul><a href="#correo"> Contactanos</a></ul>
-            <ul><a id="galeria" href="galeria.html">Galeria</a></ul>
+            <ul><a id="galeria" href="galeria.php">Galeria</a></ul>
         </li>
     </div>
     
@@ -218,7 +219,7 @@
         </div>
 
         <div class="iconos">
-            <a href="https://www.facebook.com/cristhian.ninco.7"> <img src="assets/img/imgRedesSociales/facebook (3).png" width="50px" height="50px" alt=""></a>
+            <a href="https://www.facebook.com/share/19hkdVvM6w/?mibextid=wwXIfr"> <img src="assets/img/imgRedesSociales/facebook (3).png" width="50px" height="50px" alt=""></a>
             <a href="https://www.instagram.com/dr.ninco/" target="_blank"> <img src="assets/img/imgRedesSociales/instagram.png" width="50px" height="50px"></a>
             <a href="https://www.tiktok.com/@dr.cristhianninco"> <img src="assets/img/imgRedesSociales/tik-tok (2).png" width="50px" height="50px"></a>
             <hr>
@@ -237,7 +238,7 @@
     </footer>
     
     <div class="side-bar">
-    <a href="https://www.facebook.com/cristhian.ninco.7" target="_blank">
+    <a href="https://www.facebook.com/share/19hkdVvM6w/?mibextid=wwXIfr" target="_blank">
         <img src="assets/img/imgRedesSociales/facebook (3).png" width="50px" height="50px" alt="Facebook">
     </a>
     <a href="https://www.instagram.com/dr.ninco/" target="_blank">
@@ -249,6 +250,11 @@
 </div>
 
 </div>  
+
+
+
+
+
 
 
 <script src="scripts.js"></script>

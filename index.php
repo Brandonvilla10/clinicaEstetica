@@ -65,7 +65,7 @@
 
         
 
-       <section id="container2" class="container-2">
+       <section id="container2" class="container2">
             <div class="contentLeftSide">
                     <h2>Sobre Nosotros</h2>
                     <p class="textoSobre">El Dr. Cristhian Ninco  es un médico Colombiano egresado de la Universidad del Tolima con Diplomado y entrenamiento en técnicas avanzadas de medicina Estética, Implante capilar e inyección facial. Experto en Dieta y nutrición Con más de 5 años de experiencia en el área de la estética facial es un profesional carismático, amable, ético y responsable. Amante de la  ciencia y el arte.</p>

@@ -7,17 +7,16 @@
     <link rel="icon" href="assets/img/solo logo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="css/boostrap.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/galeria.css">
-    <script src="scripts.js" defer></script>
+    
 </head>
 <body>
     
-    <header class="header">
+<header id="header" class="header">
         
 
-        <div class="logo">
-            <img src="assets/img/Mesa de trabajo 1 copia (3).png" width="210px" height="100px" alt="" >
+        <div id="logo" class="logo">
+            <img id="logoimg" class="logoimg" src="assets/img/Mesa de trabajo 1 copia (3).png" width="210px" height="100px" alt="" >
         </div>  
 <nav>
         <li class="opciones">
@@ -120,5 +119,7 @@
     312 4367882
 </div>
 </footer>
+
+<script src="scripts.js" defer></script>
 </body>
 </html>

@@ -78,7 +78,7 @@
        </section>
 
 
-       <section id="container-3" class="container-3">
+       <section id="container3" class="container_3">
             <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2161071637815!2d-75.60380882524926!3d6.235219693753016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429f538ac3521%3A0xe4fdb3794dfd8f31!2sDr.%20Cristhian%20Ninco%20-%20Medicina%20est%C3%A9tica!5e0!3m2!1ses!2sco!4v1733858665782!5m2!1ses!2sco" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -92,12 +92,13 @@
             <div id="container-4"></div>
        </section>
        
+       <h1 class="tratamientos">Tratamientos</h1>
        
        <section " class="container-4">
 
         
         
-        <div class="tratamientos1">
+        <div class="tratamientos1" id="tratamientos1">
             <div class="izquierda">
                 <img src="assets/img/tratamientos/1.jpg" class="imgTratamientos" width="300px" height="180px" alt="implanetCapilar">
                 <b>Implante capilar</b>

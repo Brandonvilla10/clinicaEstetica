@@ -39,28 +39,41 @@ function animaciones(pixeles,propiedad,clase1,clase2){
   }
 }
 
-let header = document.getElementById("header");
-window.addEventListener("scroll", () =>{
-  animaciones(5,header,"header","small")
-})
 
 
+const container3 = document.getElementById("container3")
 const logoimg = document.getElementById("logoimg");
-window.addEventListener("scroll", () =>{
-  animaciones(30,logoimg,"logoimg","logoPequeño")
-})
 
 
 const container2 = document.getElementById("container2")
 container2.classList.add("aparecerFilter")
 
-window.addEventListener("scroll", ()=>{
-  animaciones(40,container2,"aparecerFilter","container2")  
-})
-
 const imgRightSide = document.getElementById("imgRightSide")
 imgRightSide.classList.add("aparecerFilter")
 
-window.addEventListener("scroll", ()=>{
-  animaciones(40,imgRightSide,"aparecerFilter","imgRightSide")  
+let header = document.getElementById("header");
+
+const tratamiento1 = document.getElementById("tratamientos1")
+tratamiento1.classList.add("aparecerFilter")
+const tratamiento2 = document.getElementsByClassName("tratamiento2")
+const tratamiento3 = document.getElementsByClassName("tratamiento3")
+const tratamiento4 = document.getElementsByClassName("tratamiento4")
+const tratamiento5 = document.getElementsByClassName("tratamiento5")
+const tratamiento6 = document.getElementsByClassName("tratamiento6")
+const tratamiento7 = document.getElementsByClassName("tratamiento7")
+const tratamiento8 = document.getElementsByClassName("tratamiento8")
+
+
+
+window.addEventListener("scroll", () =>{
+  animaciones(5,header,"header","small")
+  animaciones(5,logoimg,"logoimg","logoPequeño")
+  animaciones(40,container2,"aparecerFilter","container2")
+  animaciones(40,imgRightSide,"aparecerFilter","imgRightSide")
+  animaciones(600,container3,"aparecerFilter","container_3")
+  animaciones(1100,tratamiento1, "aparecerFilter","tratamiento1")
 })
+
+
+
+

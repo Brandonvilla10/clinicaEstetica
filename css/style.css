@@ -460,7 +460,7 @@ a{
         transition: 0.4s ease-out;
     }
 
-    .container-3 {
+    .container_3 {
         margin-top: 2%;
         display: grid;
         grid-template: "map textomap" 200px;
@@ -469,6 +469,7 @@ a{
         margin-left: 11%;
         margin-right: 18%;
         margin-bottom: 5%;
+        transition: 0.4s ease-out;
     }
 
     .map {
@@ -500,6 +501,10 @@ a{
         font-size: xx-large;
     }
 
+    .tratamientos{
+        display: flex;
+        justify-content: center;}
+
     .container-4 {
         display: grid;
         margin-top: 5%;
@@ -515,6 +520,7 @@ a{
     .container-4 > * {
         border: #9298A6 solid;
         border-radius: 20px;
+        transition: 0.4s ease-in-out;
     }
 
     .tituloTratamientos {

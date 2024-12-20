@@ -84,11 +84,6 @@
         
 
 
-
-
-
-
-
     </div>
     
     
@@ -120,6 +115,6 @@
 </div>
 </footer>
 
-<script src="scripts.js" defer></script>
+<script src="js/galerisScripts.js" ></script>
 </body>
 </html>

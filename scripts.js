@@ -55,13 +55,21 @@ let header = document.getElementById("header");
 
 const tratamiento1 = document.getElementById("tratamientos1")
 tratamiento1.classList.add("aparecerFilter")
-const tratamiento2 = document.getElementsByClassName("tratamiento2")
-const tratamiento3 = document.getElementsByClassName("tratamiento3")
-const tratamiento4 = document.getElementsByClassName("tratamiento4")
-const tratamiento5 = document.getElementsByClassName("tratamiento5")
-const tratamiento6 = document.getElementsByClassName("tratamiento6")
-const tratamiento7 = document.getElementsByClassName("tratamiento7")
-const tratamiento8 = document.getElementsByClassName("tratamiento8")
+
+const tratamiento2 = document.getElementById("tratamientos2")
+tratamiento2.classList.add("aparecerFilter")
+
+const tratamiento3 = document.getElementById("tratamientos3")
+tratamiento3.classList.add("aparecerFilter")
+
+const tratamiento4 = document.getElementById("tratamientos4")
+tratamiento4.classList.add("aparecerFilter")
+
+const tratamiento5 = document.getElementById("tratamientos5")
+tratamiento5.classList.add("aparecerFilter")
+
+const tratamiento6 = document.getElementById("tratamientos6")
+tratamiento6.classList.add("aparecerFilter")
 
 
 
@@ -72,6 +80,12 @@ window.addEventListener("scroll", () =>{
   animaciones(40,imgRightSide,"aparecerFilter","imgRightSide")
   animaciones(600,container3,"aparecerFilter","container_3")
   animaciones(1100,tratamiento1, "aparecerFilter","tratamiento1")
+  animaciones(1100,tratamiento2, "aparecerFilter","tratamiento2")
+  animaciones(1400,tratamiento3, "aparecerFilter","tratamiento3")
+  animaciones(1400,tratamiento4, "aparecerFilter","tratamiento4")
+  animaciones(1700,tratamiento5, "aparecerFilter","tratamiento5")
+  animaciones(1700,tratamiento6, "aparecerFilter","tratamiento6")
+
 })
 
 

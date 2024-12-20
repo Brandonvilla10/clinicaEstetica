@@ -97,93 +97,108 @@
        <section " class="container-4">
 
         
-        
-        <div class="tratamientos1" id="tratamientos1">
-            <div class="izquierda">
-                <img src="assets/img/tratamientos/1.jpg" class="imgTratamientos" width="300px" height="180px" alt="implanetCapilar">
-                <b>Implante capilar</b>
-            </div>
-            <div class="derecha">
-                <p>El implante capilar, también conocido como injerto capilar o microinjerto, es una intervención mínimamente invasiva  quirúrgica que consiste en trasplantar folículos capilares de una zona donante a otra receptora para recuperar el cabello perdido.</p>
-                <div class="boton"><button type="button" id="reservar" class="reservar">
-                    <a href="https://wa.me/573124367882?text=Estoy%20interesado%20en%20este%20tratamiento%20Implante%20Capilar" target="_blank">
+       <div class="tratamientos1" id="tratamientos1">
+    <div class="izquierda">
+        <img src="assets/img/tratamientos/1.jpg" class="imgTratamientos" width="300px" height="180px" alt="implanetCapilar">
+        <b>Implante capilar</b>
+    </div>
+    <div class="derecha">
+        <p>El implante capilar, también conocido como injerto capilar o microinjerto, es una intervención mínimamente invasiva quirúrgica que consiste en trasplantar folículos capilares de una zona donante a otra receptora para recuperar el cabello perdido.<br></p>
+        <div class="boton">
+            <button type="button" id="reservar" class="reservar">
+                <a href="https://wa.me/573124367882?text=Estoy%20interesado%20en%20este%20tratamiento%20Implante%20Capilar" target="_blank">
                     Reservar
                 </a>
             </button>
         </div>
-            </div>
-        </div>
-        <div class="tratamientos2">
-            <div class="izquierda">
-                <img src="assets/img/tratamientos/2.jpg" class="imgTratamientos" width="300px" height="180px" alt="implanetCapilar">
-                <b>Toxina Botulinica - Botox</b>
-            </div>
-            <div class="derecha">
-                <p>La toxina botulínica, también conocida como bótox, es una neurotoxina que se utiliza en medicina y estética para tratar diferentes afecciones en estética la usamos para mejorar y prevenir las líneas de expresión o arrugas. <br><br>
-                </p>
-                <div class="boton"><button type="button" id="reservar" class="reservar">
-                    <a href="https://wa.me/573124367882?text=Estoy%20interesado%20en%20este%20tratamiento%20Toxina%20Botulinica" target="_blank">
+    </div>
+</div>
+
+<div class="tratamientos2" id="tratamientos2">
+    <div class="izquierda">
+        <img src="assets/img/tratamientos/2.jpg" class="imgTratamientos" width="300px" height="180px" alt="implanetCapilar">
+        <b>Toxina Botulinica - Botox</b>
+    </div>
+    <div class="derecha">
+        <p>La toxina botulínica, también conocida como bótox, es una neurotoxina que se utiliza en medicina y estética para tratar diferentes afecciones en estética la usamos para mejorar y prevenir las líneas de expresión o arrugas.<br><br></p>
+        <div class="boton">
+            <button type="button" id="reservar" class="reservar">
+                <a href="https://wa.me/573124367882?text=Estoy%20interesado%20en%20este%20tratamiento%20Toxina%20Botulinica" target="_blank">
                     Reservar
                 </a>
             </button>
         </div>
-            </div>
-        </div>
-        <div class="tratamientos3"><div class="izquierda">
-                <img src="assets/img/tratamientos/3.jpg" class="imgTratamientos" width="300px" height="180px" alt="implanetCapilar">
-                <b>Depilación láser Diodo</b>
-            </div>
-            <div class="derecha">
-                <p>La depilación láser de diodo es una manera segura, rápida y eficaz de acabar para siempre con las molestias de la depilación tradicional. <br><br><br><br></p>
-                <div class="boton">
-                    <button type="button" id="reservar" class="reservar">
-                        <a href="https://wa.me/573124367882?text=Estoy%20interesado%20en%20este%20tratamiento%20Depilacion%20Laser%20Diodo" target="_blank">
-                            Reservar
-                        </a>
-                    </button>
-                </div>
-            </div></div>
-        <div class="tratamientos4"><div class="izquierda">
-                <img src="assets/img/tratamientos/4.jpg" class="imgTratamientos" width="300px" height="180px" alt="implanetCapilar">
-                <b>Bioestimuladores</b>
-            </div>
-            <div class="derecha">
-                <p>Los bioestimuladores son sustancias inyectables que se aplican en la piel para estimular la producción de colágeno y elastina. <br><br><br><br><br></p>
-                <div class="boton">
-                    <button type="button" id="reservar" class="reservar">
-                        <a href="https://wa.me/573124367882?text=Estoy%20interesado%20en%20este%20tratamiento%20Bioestimuladores" target="_blank">
-                        Reservar
-                        </a>
-                    </button>
-                </div>
-            </div></div>
-        <div class="tratamientos5"><div class="izquierda">
-                <img src="assets/img/tratamientos/5.jpg" class="imgTratamientos" width="300px" height="180px" alt="implanetCapilar">
-                <b>Acido Hialurónico</b>
-            </div>
-            <div class="derecha">
-                <p>El ácido hialurónico es una sustancia en gel que se aplica mediante micro-inyecciones directamente en la piel. Estas inyecciones ayudan a reponer el ácido hialurónico natural perdido. <br><br><br></p>
-                <div class="boton">
-                    <button type="button" id="reservar" class="reservar">
-                        <a href="https://wa.me/573124367882?text=Estoy%20interesado%20en%20este%20tratamiento%20Acido%20Hialuronico" target="_blank"> Reservar
+    </div>
+</div>
+
+<div class="tratamientos3" id="tratamientos3">
+    <div class="izquierda">
+        <img src="assets/img/tratamientos/3.jpg" class="imgTratamientos" width="300px" height="180px" alt="implanetCapilar">
+        <b>Depilación láser Diodo</b>
+    </div>
+    <div class="derecha">
+        <p>La depilación láser de diodo es una manera segura, rápida y eficaz de acabar para siempre con las molestias de la depilación tradicional.<br><br><br><br></p>
+        <div class="boton">
+            <button type="button" id="reservar" class="reservar">
+                <a href="https://wa.me/573124367882?text=Estoy%20interesado%20en%20este%20tratamiento%20Depilacion%20Laser%20Diodo" target="_blank">
+                    Reservar
                 </a>
             </button>
         </div>
-            </div></div>
-        <div class="tratamientos6"><div class="izquierda">
-                <img src="assets/img/tratamientos/6.jpg" class="imgTratamientos" width="300px" height="180px" alt="implanetCapilar">
-                <b>Hilos Tensores</b>
-            </div>
-            <div class="derecha">
-                <p>Los hilos tensores son un tratamiento estético que se utiliza para rejuvenecer el rostro y el cuerpo. Se trata de hilos finos que se insertan en la piel con agujas o cánulas para tensar y levantar la piel desde dentro <br><br></p>
-                <div class="boton">
-                    <button type="button" id="reservar" class="reservar">
-                    <a href="https://wa.me/573124367882?text=Estoy%20interesado%20en%20este%20tratamiento%20Hilos%20Tensores" target="_blank">
-                        Reservar
-                    </a>
-                </button>
-            </div>
-            </div></div>
+    </div>
+</div>
+
+<div class="tratamientos4" id="tratamientos4">
+    <div class="izquierda">
+        <img src="assets/img/tratamientos/4.jpg" class="imgTratamientos" width="300px" height="180px" alt="implanetCapilar">
+        <b>Bioestimuladores</b>
+    </div>
+    <div class="derecha">
+        <p>Los bioestimuladores son sustancias inyectables que se aplican en la piel para estimular la producción de colágeno y elastina.<br><br><br><br><br></p>
+        <div class="boton">
+            <button type="button" id="reservar" class="reservar">
+                <a href="https://wa.me/573124367882?text=Estoy%20interesado%20en%20este%20tratamiento%20Bioestimuladores" target="_blank">
+                    Reservar
+                </a>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="tratamientos5" id="tratamientos5">
+    <div class="izquierda">
+        <img src="assets/img/tratamientos/5.jpg" class="imgTratamientos" width="300px" height="180px" alt="implanetCapilar">
+        <b>Acido Hialurónico</b>
+    </div>
+    <div class="derecha">
+        <p>El ácido hialurónico es una sustancia en gel que se aplica mediante micro-inyecciones directamente en la piel. Estas inyecciones ayudan a reponer el ácido hialurónico natural perdido.<br><br><br></p>
+        <div class="boton">
+            <button type="button" id="reservar" class="reservar">
+                <a href="https://wa.me/573124367882?text=Estoy%20interesado%20en%20este%20tratamiento%20Acido%20Hialuronico" target="_blank">
+                    Reservar
+                </a>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="tratamientos6" id="tratamientos6">
+    <div class="izquierda">
+        <img src="assets/img/tratamientos/6.jpg" class="imgTratamientos" width="300px" height="180px" alt="implanetCapilar">
+        <b>Hilos Tensores</b>
+    </div>
+    <div class="derecha">
+        <p>Los hilos tensores son un tratamiento estético que se utiliza para rejuvenecer el rostro y el cuerpo. Se trata de hilos finos que se insertan en la piel con agujas o cánulas para tensar y levantar la piel desde dentro.<br><br><br></p>
+        <div class="boton">
+            <button type="button" id="reservar" class="reservar">
+                <a href="https://wa.me/573124367882?text=Estoy%20interesado%20en%20este%20tratamiento%20Hilos%20Tensores" target="_blank">
+                    Reservar
+                </a>
+            </button>
+        </div>
+    </div>
+</div>
+
 
        </section>
 

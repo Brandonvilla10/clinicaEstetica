@@ -29,6 +29,38 @@ document.getElementById("mostrarMenu").addEventListener("click", function(e) {
   });
   
 
-document.getElementById('header').addEventListener("scroll",()=>{
-  
+
+
+function animaciones(pixeles,propiedad,clase1,clase2){
+  if (window.scrollY > pixeles ){
+    propiedad.classList.replace(clase1,clase2)
+  }else{
+    propiedad.classList.replace(clase2,clase1)
+  }
+}
+
+let header = document.getElementById("header");
+window.addEventListener("scroll", () =>{
+  animaciones(5,header,"header","small")
+})
+
+
+const logoimg = document.getElementById("logoimg");
+window.addEventListener("scroll", () =>{
+  animaciones(30,logoimg,"logoimg","logoPequeño")
+})
+
+
+const container2 = document.getElementById("container2")
+container2.classList.add("aparecerFilter")
+
+window.addEventListener("scroll", ()=>{
+  animaciones(40,container2,"aparecerFilter","container2")  
+})
+
+const imgRightSide = document.getElementById("imgRightSide")
+imgRightSide.classList.add("aparecerFilter")
+
+window.addEventListener("scroll", ()=>{
+  animaciones(40,imgRightSide,"aparecerFilter","imgRightSide")  
 })

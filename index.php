@@ -12,11 +12,11 @@
 <body>
 
     
-    <header class="header">
+    <header id="header" class="header">
         
 
-        <div class="logo">
-            <img class="logoimg" src="assets/img/Mesa de trabajo 1 copia (3).png" width="210px" height="100px" alt="" >
+        <div id="logo" class="logo">
+            <img id="logoimg" class="logoimg" src="assets/img/Mesa de trabajo 1 copia (3).png" width="210px" height="100px" alt="" >
         </div>  
 <nav>
         <li class="opciones">
@@ -49,7 +49,7 @@
     
     
         
-        <section  class="container1">
+        <section id="container1"  class="container1">
 
                 <aside class="linea"></aside>
             <div class="nombre">
@@ -65,13 +65,13 @@
 
         
 
-       <section id="container-2" class="container-2">
+       <section id="container2" class="container-2">
             <div class="contentLeftSide">
                     <h2>Sobre Nosotros</h2>
                     <p class="textoSobre">El Dr. Cristhian Ninco  es un médico Colombiano egresado de la Universidad del Tolima con Diplomado y entrenamiento en técnicas avanzadas de medicina Estética, Implante capilar e inyección facial. Experto en Dieta y nutrición Con más de 5 años de experiencia en el área de la estética facial es un profesional carismático, amable, ético y responsable. Amante de la  ciencia y el arte.</p>
             </div>
 
-            <div class="imgRightSide">
+            <div class="imgRightSide" id="imgRightSide">
                 <img src="assets/img/sin fondo negro.png" class="sinFondoNegro" width="500px" height=500px" alt="">
             </div>
 

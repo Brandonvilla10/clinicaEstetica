@@ -19,6 +19,7 @@
             <img id="logoimg" class="logoimg" src="assets/img/Mesa de trabajo 1 copia (3).png" width="210px" height="100px" alt="" >
         </div>  
 <nav>
+<div class="resaltador" id="resaltador"> </div>
         <li class="opciones">
             <ul><a href="index.php"> Inicio</a></ul>
             <ul><a href="index.php"> Sobre Nosotros</a></ul>

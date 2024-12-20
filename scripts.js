@@ -1,4 +1,3 @@
-
 // const mostrarMenu = document.getElementById("mostrarMenu")
 // const menuLateral = document.getElementById("menuLateral")
 
@@ -41,6 +40,8 @@ function animaciones(pixeles,propiedad,clase1,clase2){
 
 
 
+
+
 const container3 = document.getElementById("container3")
 const logoimg = document.getElementById("logoimg");
 
@@ -71,10 +72,11 @@ tratamiento5.classList.add("aparecerFilter")
 const tratamiento6 = document.getElementById("tratamientos6")
 tratamiento6.classList.add("aparecerFilter")
 
-
+const resaltador = document.getElementById("resaltador")
 
 window.addEventListener("scroll", () =>{
   animaciones(5,header,"header","small")
+  animaciones(5,resaltador,"resaltador","resaltadorPequeño")
   animaciones(5,logoimg,"logoimg","logoPequeño")
   animaciones(40,container2,"aparecerFilter","container2")
   animaciones(40,imgRightSide,"aparecerFilter","imgRightSide")
@@ -89,5 +91,19 @@ window.addEventListener("scroll", () =>{
 })
 
 
-
-
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 3200) {
+    resaltador.style.right = "189px";
+    resaltador.style.width = "140px";
+  }
+  else if (window.scrollY > 1100) {
+    resaltador.style.right = "378px";
+    resaltador.style.width = "144px";
+  }else if (window.scrollY > 200) {
+    resaltador.style.right = "578px";
+    resaltador.style.width = "152px";
+  }else if (window.scrollY > 30) {
+    resaltador.style.right = "765px";
+    resaltador.style.width = "118px";
+  }
+});

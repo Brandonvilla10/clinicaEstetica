@@ -48,6 +48,7 @@ let header = document.getElementById("header");
 window.addEventListener("scroll", () =>{
   animaciones(5,header,"header","small")
   animaciones(5,logoimg,"logoimg","logoPequeño")
+  animaciones(5,resaltador,"resaltador","resaltadorPequeño")
 
 })
 

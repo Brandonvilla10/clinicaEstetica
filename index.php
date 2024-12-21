@@ -54,7 +54,7 @@
                 <aside class="linea"></aside>
             <div class="nombre">
                     <i>Dr. Cristhian Ninco </i>
-                    <p class="mensaje">Medicina Estética e Implante Capilar</p>    
+                    <h1 class="mensaje">Medicina Estética e Implante Capilar</>    
             
                     <div id="container-2"></div>
             </div>
